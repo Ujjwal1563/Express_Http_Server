@@ -8,7 +8,7 @@ app.get('/', (req,res) => {
 });
 app.get('/about', (req,res) => {
     return res.send(
-        `Hello ${req.query.name}`
+        `Hello ${req.query.name} and my age is ${req.query.age}`
     );
 });
 
